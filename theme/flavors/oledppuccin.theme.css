@@ -28,8 +28,8 @@
 	/* background colors */
 	--bg-0: #000000; /* main background color. */
 	--bg-1: #11111b; /* background color for secondary elements like code blocks, embeds, etc. */
-	--bg-2: #313244; /* color of neutral buttons. */
-	--bg-3: #45475a; /* color of neutral buttons when hovered. */
+	--bg-2: #181825;/* color of neutral buttons. */
+	--bg-3: #1e1e12e; /* color of neutral buttons when hovered. */
 
 	/* state modifiers */
 	--hover: color-mix(in oklch, var(--txt-3), transparent 80%); /* color of hovered elements. */
@@ -40,14 +40,14 @@
 	--txt-dark: var(--bg-0); /* color of dark text on colored backgrounds. */
 	--txt-link: var(--cyan); /* color of links. */
 	--txt-0: #eaeefa; /* color of bright/white text. */
-	--txt-1: #cdd6f4; /* main text color. */
-	--txt-2: #9399b2; /* color of secondary text like channel list. */
-	--txt-3: #585b70; /* color of muted text. */
+	--txt-1: #ffffff; /* main text color. */
+	--txt-2: #cdd6f4; /* color of secondary text like channel list. */
+	--txt-3: #9399b2; /* color of muted text. */
 
 	/* accent colors */
-	--acc-0: var(--purple); /* main accent color. */
-	--acc-1: var(--purple-1); /* color of accent buttons when hovered. */
-	--acc-2: var(--purple-2); /* color of accent buttons when clicked. */
+	--acc-0: var(--green); /* main accent color. */
+	--acc-1: var(--green-1); /* color of accent buttons when hovered. */
+	--acc-2: var(--green-2); /* color of accent buttons when clicked. */
 
 	/* borders */
 	--border-width: 2px; /* panel border thickness. */
